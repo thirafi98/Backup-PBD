@@ -18,3 +18,4 @@ select distinct id_cust, nama, total_bayar from CUSTOMER_1301154374 join PEMBELI
 where total_bayar < (select MAX(TOTAL_BAYAR) from PEMBELIAN_1301154374);
 /*check kalo max dari total*/
 select MAX(TOTAL_BAYAR) from PEMBELIAN_1301154374;
+
