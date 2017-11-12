@@ -1,4 +1,3 @@
-drop table pegawai_1301154374;
 select * from BARANG_1301154374;
 select * from CUSTOMER_1301154374;
 select * from PEGAWAI_1301154374;
